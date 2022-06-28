@@ -12,10 +12,10 @@ class HCF
         
        System.out.println("Enter 2 numbers to Find HCF");
 
-        System.out.print("/nEnter number 1: ");
+        System.out.print("\nEnter number 1: ");
        int N=sc.nextInt();
 
-        System.out.print("/nEnter number 2: ");
+        System.out.print("\nEnter number 2: ");
        int N1=sc.nextInt();
 
         int i=1, HCF=0;
@@ -29,6 +29,6 @@ while(i<=N || i<=N1)
 i++;
 }
 
-System.out.println("HCF of Both Number is: "+HCF);
+System.out.println("\nHCF of Both Number is: "+HCF);
        }
 }
